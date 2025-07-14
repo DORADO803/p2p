@@ -10,9 +10,9 @@ export default defineConfig(({ mode }) => {
       },
       resolve: {
         alias: {
-          '@': path.resolve(__dirname, '.'),
-          base: 'https://DORADO803.github.io/p2p'
+          '@': path.resolve(__dirname, '.'), 
         }
-      }
+      },
+      base: 'https://DORADO803.github.io/p2p/',
     };
 });
